@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ifelse4 {
-
+	//en este ejecicio tenemos que hacer un calculo con la fecha actual y la fecha q nos de el usuario que no puede ser mayor a la fecha actial
 	public static void main(String[] args) {
 		//variables
 		int dt , fc , res1 ;
