@@ -18,11 +18,8 @@ public class EJ1 {
 		
 		// creamos el bubles necesario para hacer el ejercicio
 		
-		for (i = 1; i<num ; i++) {
+		for (i = 1; i<=num ; i++) {
 			System.out.println(i);
-			i=i+1;
-			System.out.println(i);
-
 		}
 	}
 
