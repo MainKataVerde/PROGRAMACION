@@ -12,7 +12,7 @@ public class EJ3 {
 
 	public static void main(String[] args) {
 		//VARTABLES
-		int i , f , num , fac;
+		int i , num , fac;
 		
 		//NUMERO DE USUSARIO
 		Scanner sc = new Scanner(System.in);
