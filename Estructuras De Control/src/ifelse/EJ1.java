@@ -31,8 +31,6 @@ public class EJ1 {
 			
 			System.out.println("Introduzca un numero dentro del rango de la nota");
 			
-			
-
 		}else if(nt>=60){
 			System.out.println("Aprovado");
 		}else {
