@@ -19,6 +19,8 @@ public class EJ1 {
 		
 		System.out.println("Itroduce la nota de tu examen");
 		
+		
+		
 		nt = sc.nextInt();
 		
 		/*
