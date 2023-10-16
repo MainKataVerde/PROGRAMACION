@@ -21,6 +21,7 @@ public class EJ1 {
 		for (i = 1; i<=num ; i++) {
 			System.out.println(i);
 		}
+		
 	}
 
 }
