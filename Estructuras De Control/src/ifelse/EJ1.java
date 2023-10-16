@@ -15,6 +15,7 @@ public class EJ1 {
 		int nt ;
 		//sacamos la clase Scanner para sacar el numero de los usuarios
 		Scanner sc = new Scanner(System.in);
+			
 		
 		System.out.println("Itroduce la nota de tu examen");
 		
@@ -29,6 +30,8 @@ public class EJ1 {
 		if (nt>100) {
 			
 			System.out.println("Introduzca un numero dentro del rango de la nota");
+			
+			
 
 		}else if(nt>=60){
 			System.out.println("Aprovado");
