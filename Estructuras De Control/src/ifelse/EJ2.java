@@ -20,6 +20,8 @@ public class EJ2 {
 		}else {
 			System.out.println("El numero es igual a 0");
 		}
+		
+		sc.close();
 	}
 
 }

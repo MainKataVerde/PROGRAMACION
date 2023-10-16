@@ -21,6 +21,8 @@ public class EJ5 {
 		}else {
 			System.out.println("Esta dentro del rango");
 		}
+		
+		sc.close();
 	}
 
 }

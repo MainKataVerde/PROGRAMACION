@@ -31,6 +31,8 @@ public class EJ4 {
 			System.out.println("Fecha no valida");
 
 		}
+		
+		sc.close();
 	}
 
 }

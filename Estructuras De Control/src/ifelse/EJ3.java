@@ -22,6 +22,7 @@ public class EJ3 {
 			System.out.println("El numero es impar");
 			
 		}
+		sc.close();
 	}
 
 }
