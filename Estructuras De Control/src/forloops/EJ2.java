@@ -17,12 +17,14 @@ public class EJ2 {
 		
 		num = sc.nextInt();
 		
+		res = 0 ;
+		
 		//bucle for para sacar el calculo
 		for(i=1; i<=num;i++) {
 			i++;
-			res=i+num;
-			System.out.println(i+"+"+num+"="+res);
+			res=i+res;
 		}
+		System.out.println("La sumas de todos los numeros pares desde 1 hasta "+num+" = "+res);
 	}
 
 }
