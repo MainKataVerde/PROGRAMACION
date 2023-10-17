@@ -21,8 +21,6 @@ public class EJ3 {
 		num = sc.nextInt();
 		System.out.println("Quieres intercambiar pasarlo a la otra moneda S/N");
 		res = sc.next().charAt(0);
-		sc.close();
-
 		if (res=='S'||res=='s') {
 			
 				switch(tipo){
@@ -36,7 +34,7 @@ public class EJ3 {
 				 		System.out.println("Tus "+num+"€"+" equivalen a "+(num*dor)+"$");
 				 	break;
 				}
-		}else {
+		}else if(res=='N'||res=='n'){
 				switch(tipo){
 					case 'D':
 					case 'd':
@@ -47,8 +45,10 @@ public class EJ3 {
 					case 'e':
 						System.out.println("Tu valor es "+num+"€");;
 					break;
+				}
+		
+			}else {
+				System.out.println("Introduce una respuesta correcta");
+			}
 		}
-}
-
- }
 }
