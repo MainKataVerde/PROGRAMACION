@@ -15,9 +15,9 @@ public class EJ3 {
 		
 		//NUMERO DE USUARIO
 		Scanner sc = new Scanner(System.in);
-		System.out.println("En que moneda quieres el dinero Dolares (D) o Euros(E)");
+		System.out.println("En que moneda quieres el dinero Dolares (D/d) o Euros(E/e)");
 		tipo = sc.next().charAt(0);
-		System.out.println("Que cantidad quieree");
+		System.out.println("Que cantidad quieres");
 		num = sc.nextInt();
 		System.out.println("Quieres intercambiar pasarlo a la otra moneda S/N");
 		res = sc.next().charAt(0);
@@ -26,7 +26,6 @@ public class EJ3 {
 		if (res=='S'||res=='s') {
 			
 				switch(tipo){
-					
 				 	case 'D':
 				 	case 'd':
 				 		System.out.println("Tus "+num+"$"+" equivalen a "+(num*eur)+"€");
@@ -37,9 +36,19 @@ public class EJ3 {
 				 		System.out.println("Tus "+num+"€"+" equivalen a "+(num*dor)+"$");
 				 	break;
 				}
-	}else {
-		System.out.println("Sus valores son ="+num+tipo);
-	}
+		}else {
+				switch(tipo){
+					case 'D':
+					case 'd':
+						System.out.println("Tu valor es "+num+"$");
+					break;
+	 	
+					case 'E':
+					case 'e':
+						System.out.println("Tu valor es "+num+"€");;
+					break;
+		}
+}
 
  }
 }
