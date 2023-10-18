@@ -9,7 +9,6 @@ public class EJ4 {
 		int num , al;
 		Scanner sc = new Scanner(System.in);
 		al = (int)(Math.random()*100-1+1)+1;
-		System.out.println(al);
 		System.out.println("Adivina un numero del 1 al 100");
 		System.out.print("Inserte el numeor que crees que es =");
 		num= sc.nextInt();
