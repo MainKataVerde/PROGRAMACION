@@ -3,7 +3,7 @@ package switchej;
 import java.util.Scanner;
 
 public class EJ3 {
-
+	
 	public static void main(String[] args) {
 		//VARIABLE
 		int num ;
