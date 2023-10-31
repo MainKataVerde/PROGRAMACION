@@ -20,8 +20,7 @@ public class EJ2 {
 		res = 0 ;
 		
 		//bucle for para sacar el calculo
-		for(i=1; i<=num;i++) {
-			i++;
+		for(i=1; i<=num;i+=2) {
 			res=i+res;
 		}
 		System.out.println("La sumas de todos los numeros pares desde 1 hasta "+num+" = "+res);
