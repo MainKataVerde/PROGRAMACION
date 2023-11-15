@@ -30,12 +30,7 @@ public class EJ6 {
 			}
 		}
 		
-		
 		System.out.print("\nNuevo array : " + mi_array1[0]+ " "+ mi_array1[1]+ " "+ mi_array1[2]+ " "+ mi_array1[3]+ " "+ mi_array1[4]+ " ");
-
-		
-		
-		
 	}
 
 }
