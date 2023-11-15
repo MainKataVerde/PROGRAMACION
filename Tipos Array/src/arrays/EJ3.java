@@ -14,13 +14,13 @@ public class EJ3 {
 		
 		for(int i = 1; i < num.length-1;i ++) {
 			
-			alt = (int)(Math.random()*10+1);
+			alt = (int)(Math.random()*20+1);
 			
 			num[i] = alt;
 			
 			System.out.print(num[i]+" ");
 			
-			if (my<num[i]) {
+			if (my < num[i]) {
 				my = num[i];
 			}
 			

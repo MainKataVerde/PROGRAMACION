@@ -9,9 +9,9 @@ public class EJ1 {
 		
 		int resultado = 0;
 		
-		numero = new int[10];
+		numero = new int[11];
 		
-		for (int i = 1; i <= numero.length-1;i++) {
+		for (int i = 0; i <= numero.length-1;i++) {
 		
 			numero[i] = i;
 			

@@ -6,34 +6,25 @@ public class EJ5 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
-		int buscar , alt ; 
-		
-		int mi_array[];
-		
-		mi_array = new int[11];
+				
+		int [] mi_array1  = {3,71,40,10,20};
 		
 		System.out.print("Elige la casilla que quieras eliminar : ");
 
-		buscar = scanner.nextInt();
+		int buscar = scanner.nextInt();
 		
-		System.out.print("Array original : ");
+		System.out.print("Array original : " + mi_array1[0]+ " "+ mi_array1[1]+ " "+ mi_array1[2]+ " "+ mi_array1[3]+ " "+ mi_array1[4]+ " ");
 		
-		for(int i = 0 ; i < mi_array.length;i++) {	
-			alt = (int)(Math.random()*10+1);
-			mi_array[i] = alt;
-			System.out.print(mi_array[i] + " ");
-		}
-		
-		System.out.print("\nDespues de eliminar el elemento "+mi_array[buscar]+" : ");
-		
-		for(int k = 0 ; k < mi_array.length; k++) {
-			System.out.print(mi_array[k] + " ");
-			
-			if(k == buscar) {
-				mi_array[k] = mi_array[k+1]; 
+		if (buscar<0||buscar>mi_array1.length-1) {
+			System.err.println("Introduce un numero valido");
+		}else {
+			buscar = buscar -1 ;
+			for(int i = buscar ; i < mi_array1.length-1; i++ ) {
+				mi_array1[i] = mi_array1[i+1];
 			}
 		}
+		
+		System.out.print("\nDespues de quitar la posicion "+buscar+" : " + mi_array1[0]+ " "+ mi_array1[1]+ " "+ mi_array1[2]+ " "+ mi_array1[3]+ " "+ mi_array1[4]+ " ");
 		
 	}
 	
