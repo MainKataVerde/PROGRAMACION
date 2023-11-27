@@ -15,26 +15,37 @@ public class EJ4 {
 		
 		int num[];
 		
+		boolean condicion = false ;
+		
 		num= new int[11];
 		
 		System.out.print("¿Que numero quieres buscar? ");
 		
 		buscar = scanner.nextInt();
-				
-	for (int i = 1; i < num.length;i++) {
+		
+		for (int i = 0; i < num.length;i++) {
 			alt = (int)(Math.random()*10+1);
 			num[i]= alt;
-			cont++;
-			System.out.println(num[i]);
-			if(buscar==num[i]) {
-				resultado = cont;
-			}
+			System.out.print(num[i]+" ");
 		}
+		
+		int j = 0 ;
+				
+		while (j < num.length -1) {
+			cont++;
+			if(buscar==num[j]) {
+				resultado = cont;
+				condicion = true;
+			}
+			
+			j++;
+		}
+				
 	
-		if(resultado>0) {
-			System.out.println("Tu numero esta en la posicion "+resultado);
+		if(condicion == true) {
+			System.out.println(" Tu numero esta en la posicion "+resultado);
 		}else {
-			System.out.println("Su numero no se encontro");
+			System.out.println(" Su numero no se encontro");
 		}
 	}
 
