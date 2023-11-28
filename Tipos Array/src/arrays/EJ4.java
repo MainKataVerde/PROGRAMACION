@@ -31,7 +31,7 @@ public class EJ4 {
 		
 		int j = 0 ;
 				
-		while (j < num.length -1) {
+		while (!condicion) {
 			cont++;
 			if(buscar==num[j]) {
 				resultado = cont;
